@@ -1,0 +1,11 @@
+.schema *{
+    border: 1px solid black;
+}
+
+.light_blue{
+    background-color: lightblue;
+}
+
+.light_pink{
+    background-color: lightpink;
+}
