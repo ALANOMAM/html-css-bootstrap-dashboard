@@ -16,6 +16,9 @@
     display: flex;   
 }
 
+@media screen and (max-width: 768px ){
+.side-nav{
+    width: 70px;
+}
 
-
-
+}
