@@ -1,11 +1,21 @@
-.schema *{
+.main-side *{
     border: 1px solid black;
 }
 
-.light_blue{
+.side-nav{
+    width: 150px;
     background-color: lightblue;
 }
 
-.light_pink{
+.main{
     background-color: lightpink;
+    width: 100%;
 }
+
+.main-side{
+    display: flex;   
+}
+
+
+
+
