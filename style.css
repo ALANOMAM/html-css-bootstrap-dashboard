@@ -10,10 +10,13 @@
 .main{
     background-color: lightpink;
     width: 100%;
+    overflow: auto;
 }
 
 .main-side{
-    display: flex;   
+    display: flex;  
+    height: calc(100vh - 56px); 
+
 }
 
 @media screen and (max-width: 768px ){
