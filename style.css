@@ -4,7 +4,9 @@
 
 .side-nav{
     width: 150px;
-    background-color: lightblue;
+    background-color: rgba(5, 30, 52, 1);
+    background-image: url("img/sidebar-bg.png");
+    color:white;
 }
 
 .main{
@@ -22,6 +24,10 @@
 @media screen and (max-width: 768px ){
 .side-nav{
     width: 70px;
+}
+
+.top span,.bottom span{
+  display: none;
 }
 
 }
