@@ -6,6 +6,10 @@
     border: 1px solid black;
 }
 
+.fa-bell{
+    color:rgba(255, 140, 0, 1) ;
+}
+
 .side-nav{
     width: 150px;
     background-color: rgba(5, 30, 52, 1);
@@ -35,6 +39,20 @@
  .desktop-logo{
     display: none;
  }   
+
+ .fa-list,.fa-circle-question,.fa-ellipsis-vertical{
+    display: none;
+ }
+
+ .col-2,.col-1{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .col-9{
+    flex-grow: 1;
+ }
 
 .side-nav{
     width: 70px;
