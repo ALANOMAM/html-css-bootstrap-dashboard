@@ -22,6 +22,16 @@
 }
 
 @media screen and (max-width: 768px ){
+.mobile-logo{
+  display: block;
+  width: 45px;
+  height: auto;
+    }
+
+ .desktop-logo{
+    display: none;
+ }   
+
 .side-nav{
     width: 70px;
 }
@@ -30,4 +40,14 @@
   display: none;
 }
 
+}
+
+@media screen and (min-width: 768px ){
+    .dektop-logo{
+        display: block;
+     } 
+
+     .mobile-logo{
+        display: none;
+     }
 }
