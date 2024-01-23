@@ -26,6 +26,18 @@
 
 }
 
+.class_avatar{
+width:40px;
+height: auto;
+}
+
+.class_icon{
+    padding: 5px;
+    border: 2px gray solid;
+    border-radius: 3px;
+    color:gray
+}
+
 @media screen and (max-width: 768px ){
 .mobile-logo{
   display: block;
