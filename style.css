@@ -97,6 +97,15 @@ height: auto;
      }
 }
 
+
+
+
+@media screen and (max-width: 576px){
+ .class_disappear{
+    display: none;
+ }
+}
+
 @media screen and (max-width: 950px ){
     ._crumb{
         display: none;
