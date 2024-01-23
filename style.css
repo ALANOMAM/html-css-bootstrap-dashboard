@@ -16,14 +16,13 @@
 
 .main{
     background-color: rgba(248, 249, 251, 1);
-    width: 100%;
+   /* width: 90%;*/
     overflow: auto;
+    height: calc(100vh - 56px);
 }
 
 .main-side{
     display: flex;  
-    height: calc(100vh - 56px); 
-
 }
 
 .class_avatar{
@@ -37,6 +36,20 @@ height: auto;
     border-radius: 3px;
     color:gray
 }
+
+
+@media screen and (max-width: 950px ){
+    ._crumb{
+        display: none;
+        }
+}
+
+@media screen and (min-width: 950px ){
+    ._crumbplus{
+        display: none;
+        }
+}
+
 
 @media screen and (max-width: 768px ){
 .mobile-logo{
@@ -106,14 +119,3 @@ height: auto;
  }
 }
 
-@media screen and (max-width: 950px ){
-    ._crumb{
-        display: none;
-        }
-}
-
-@media screen and (min-width: 950px ){
-    ._crumbplus{
-        display: none;
-        }
-}
